@@ -1,8 +1,14 @@
 <p>
   my-photo works (de chiripa pero works...)!
-  <li *ngFor="let photo of photos">
-    <img class="toro" src="{{ photo.image }}">
-    <br>
-    <span> {{ photo.description }} </span>
- </li>
 </p>
+
+<ul>
+
+      <li class="container" *ngFor="let photo of photos">
+          <img class="photo" src="{{ photo.image }}">
+          <div class="description">
+            <span> {{ photo.description }} </span>
+          </div>
+      </li>
+
+</ul>

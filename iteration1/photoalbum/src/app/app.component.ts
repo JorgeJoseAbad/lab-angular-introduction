@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works parece..!';
   content : string= 'estoy jugando otra vez!!!';
+  leches: string ='leches fritas';
 }
