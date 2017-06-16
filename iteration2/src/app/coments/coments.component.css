@@ -1,0 +1,14 @@
+.comment{
+  background-color: #a3c1a3;
+}
+.author{
+  font: 18px;
+  color: green;
+  font-style: oblique;
+}
+
+.comentContent{
+  font-size: 16px;
+  text-align: justify;
+
+}
