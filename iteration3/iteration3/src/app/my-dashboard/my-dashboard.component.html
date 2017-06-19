@@ -6,5 +6,11 @@
         <div class="year">{{champion.year}}</div>
         <div class="comentContent">{{champion.name}}</div>
         <img class="photo" src={{champion.champUrl}}>
-        
+        <div class="bestPlayers">
+        <ul>
+          <li *ngFor="let bestPlayer of champion.bestPlayers">
+              {{ bestPlayer.name }}
+          </li>
+        </ul>
+        </div>
       </div>
